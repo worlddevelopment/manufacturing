@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<interface uri="http://raw.githubusercontent.com/worlddevelopment/manufacturing/master/public/interface.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+	<name>Manufacturing</name>
+	<summary>
+A collection of universal machines useful for manufacturing.
+	</summary>
+	<!-- tags: -->
+	<category type=''>universal</category>
+	<category type=''>flexible</category>
+	<category type=''>system</category>
+	<category type=''>machine</category>
+	<category type=''>automaton</category>
+	<category type=''>manufacture</category>
+	<category type=''>manufacturing</category>
+	<!-- If type is not given, then it is assumed being one of the main application category specification:
+		  https://specifications.freedesktop.org/menu-spec/latest/apa.html
+	-->
+	<category>Science</category>
+	<category>Development</category>
+	<group version='0.1' main="" doc-dir="doc" license="CC-BY-SA">
+		<!-- for this group common dependencies: -->
+		<requires interface="http://raw.githubusercontent.com/faerietree/manipulator/public/interface.xml">
+		</requires>
+		<requires interface="http://raw.githubusercontent.com/faerietree/multimachine_lightspeed_precise/public/interface.xml">
+		</requires>
+		<requires interface="http://raw.githubusercontent.com/hamag-honey-gem/bender/public/interface.xml">
+		</requires>
+
+	</group>
+
+
+</interface>
+
